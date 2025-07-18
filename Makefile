@@ -12,4 +12,4 @@ tf-fmt:
 
 ## Terraform destroy
 tf-destroy:
-	terraform destroy -var-file=enviroment/prod/terraform.tfvars
+	terraform destroy -auto-approve -var-file=enviroment/prod/terraform.tfvars
