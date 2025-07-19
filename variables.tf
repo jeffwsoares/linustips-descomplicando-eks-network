@@ -37,7 +37,7 @@ variable "private_subnets" {
 
 variable "database_subnets" {
   description = "Lista de Database Subnets da VPC"
-  default = []
+  default     = []
   type = list(object({
     name              = string
     cidr              = string
